@@ -19,7 +19,7 @@ class ListContents extends Component{
         this.updateQuery('')
     }
     render() {
-        console.log(this.props)
+        console.log('list',this.props)
         const {query} = this.state
         const {contacts,onDeleteContact} = this.props
         const showingContacts = query === ""
